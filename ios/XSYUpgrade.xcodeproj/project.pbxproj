@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F63521361D06C04700CC2679 /* BSDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = F63521321D06C04700CC2679 /* BSDiff.m */; };
 		F63521371D06C04700CC2679 /* bspatch.c in Sources */ = {isa = PBXBuildFile; fileRef = F63521341D06C04700CC2679 /* bspatch.c */; };
+		F664AA0D1D99123300FBEC53 /* XSYUpgrade.m in Sources */ = {isa = PBXBuildFile; fileRef = F664AA0C1D99123300FBEC53 /* XSYUpgrade.m */; };
 		F669DE9F1D0E754800C79FC4 /* XSYJSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = F669DE891D0D548A00C79FC4 /* XSYJSVersion.m */; };
 		F669DEA01D0E755200C79FC4 /* XSYSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F635213B1D06C05600CC2679 /* XSYSandbox.m */; };
 		F669DEA11D0E756000C79FC4 /* XSYPatchCombine.m in Sources */ = {isa = PBXBuildFile; fileRef = F63521391D06C05600CC2679 /* XSYPatchCombine.m */; };
@@ -37,6 +38,8 @@
 		F63521391D06C05600CC2679 /* XSYPatchCombine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSYPatchCombine.m; sourceTree = "<group>"; };
 		F635213A1D06C05600CC2679 /* XSYSandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSYSandbox.h; sourceTree = "<group>"; };
 		F635213B1D06C05600CC2679 /* XSYSandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSYSandbox.m; sourceTree = "<group>"; };
+		F664AA0B1D99123300FBEC53 /* XSYUpgrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSYUpgrade.h; sourceTree = "<group>"; };
+		F664AA0C1D99123300FBEC53 /* XSYUpgrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSYUpgrade.m; sourceTree = "<group>"; };
 		F669DE881D0D548A00C79FC4 /* XSYJSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSYJSVersion.h; sourceTree = "<group>"; };
 		F669DE891D0D548A00C79FC4 /* XSYJSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSYJSVersion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +81,8 @@
 				F635213B1D06C05600CC2679 /* XSYSandbox.m */,
 				F669DE881D0D548A00C79FC4 /* XSYJSVersion.h */,
 				F669DE891D0D548A00C79FC4 /* XSYJSVersion.m */,
+				F664AA0B1D99123300FBEC53 /* XSYUpgrade.h */,
+				F664AA0C1D99123300FBEC53 /* XSYUpgrade.m */,
 			);
 			path = XSYUpgrade;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				F669DEA11D0E756000C79FC4 /* XSYPatchCombine.m in Sources */,
 				F669DEA01D0E755200C79FC4 /* XSYSandbox.m in Sources */,
 				F669DE9F1D0E754800C79FC4 /* XSYJSVersion.m in Sources */,
+				F664AA0D1D99123300FBEC53 /* XSYUpgrade.m in Sources */,
 				F63521361D06C04700CC2679 /* BSDiff.m in Sources */,
 				F63521371D06C04700CC2679 /* bspatch.c in Sources */,
 			);
