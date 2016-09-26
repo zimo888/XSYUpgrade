@@ -1,0 +1,20 @@
+{
+  "name": "XSYUpgrade",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/zimo888/react-native-xsy-upgrade"
+  },
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "^0.33.0",
+    "react-native-xsy-zip-archive": "^0.0.2",
+    "react-native-xsy-fs": "^1.0.3"
+  }
+}
