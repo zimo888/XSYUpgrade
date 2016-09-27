@@ -2,7 +2,7 @@
 {
   "name": "react-native-xsy-upgrade",
   "version": "0.0.2",
-  "private": true,
+  "description": "react-native-xsy-upgrade library for react-native",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
