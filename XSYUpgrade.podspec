@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/zimo888/XSYUpgrade'
   s.authors          = 'zimo'
   s.source           = { :git => 'https://github.com/zimo888/XSYUpgrade.git', :tag => "#{s.version}" }
-  s.source_files     = 'ios/**/*.{h,m}'
+  s.source_files     = 'ios/**/*.{h,m,c}'
   s.preserve_paths  = "**/*.js"
   s.platform         = :ios, "7.0"
-  s.dependency         'React/Core'  
+  s.dependency        'React/Core'
 end
