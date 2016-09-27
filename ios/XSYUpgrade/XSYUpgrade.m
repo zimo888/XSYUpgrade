@@ -18,7 +18,7 @@ RCT_REMAP_METHOD(currentVersion,
   if (version) {
     resolve(version);
   }else{
-    reject(@"no",nil,nil);
+    reject(@"no");
   }
 }
 
@@ -38,7 +38,7 @@ RCT_REMAP_METHOD(baseVersion,
   if (version) {
     resolve(version);
   }else{
-    reject(@"no",nil,nil);
+    reject(@"no");
   }
 }
 
@@ -60,7 +60,7 @@ RCT_REMAP_METHOD(currentVersionPath,
   if (path) {
     resolve(path);
   }else{
-    reject(@"no",nil,nil);
+    reject(@"no");
   }
 }
 //
@@ -87,7 +87,7 @@ RCT_REMAP_METHOD(combine,
         [XSYJSVersion setVersion:newVersion];
         resolve(@YES);
       }else{
-        reject(@"no",@"combine err",nil);
+        reject(@"no");
       }
       
     }];
